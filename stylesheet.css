@@ -1,9 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-header{align-content:center;
-		background-color: transparent;
-		align-items:center;
+header{	
+		text-align:center;
+		width:950px;
+		margin: 0 auto;
 		font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 }
 body{
@@ -11,12 +12,30 @@ body{
 	align-content:center;
 	align-items:center;
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	color: #FFFFFF; 
-	
-	
+	color: #FFFFFF;
 }
 
-p{align-content:center;
+nav {
+	text-align:center;
+	align: center;
 }
 
+nav ul {
+	margin: 0 auto;
+}
 
+#content {
+	display:block;
+	clear:both;
+	width:78%;
+	padding: 1%;
+	float:left;
+	margin: 5px 10%;
+	border: 1px solid black;
+	text-align: center;
+	
+}
+	
+p{
+	align-content:center;
+}

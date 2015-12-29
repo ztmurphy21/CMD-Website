@@ -17,6 +17,15 @@ body{
 	
 }
 
+nav {
+	text-align:center;
+	align: center;
+}
+
+nav ul {
+	margin: 0 auto;
+}
+
 p{align-content:center;
 }
 
